@@ -15,7 +15,7 @@ function Main() {
     return (
         <div>
             <div style={{ textAlign: 'right', marginBottom: '20px', position: 'top' }}>
-                <a style={{ fontSize: '20px' }} href="javascript:void(0)" onClick={logout} >logout</a>
+                <a style={{ fontSize: '20px' }} onClick={logout} >logout</a>
             </div>
             <div className="app">
                 <div className="Main">
