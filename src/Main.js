@@ -10,7 +10,7 @@ function Main() {
     const logout = () => {
         Cookies.remove('token');
         window.location.href = '/';
-        }
+    }
   
     return (
         <div>
@@ -19,9 +19,9 @@ function Main() {
             </div>
             <div className="app">
                 <div className="Main">
-                    <a style={{ fontSize: '20px'}} href={process.env.REACT_APP_OEA_BACKEND_HOST+"/vote"} target="_blank" >Export Votes</a><br/><br/>
-                    <a style={{ fontSize: '20px'}} href={process.env.REACT_APP_OEA_BACKEND_HOST+"/register"} target="_blank" >Export Registered Engineers</a><br/><br/>
-                    <a style={{ fontSize: '20px'}} href={process.env.REACT_APP_OEA_BACKEND_HOST+"/mobile"} target="_blank" >Export Updated Mobiles</a><br/><br/>
+                    <a style={{ fontSize: '20px'}} href={process.env.REACT_APP_OEA_BACKEND_HOST+"/vote"} >Export Votes</a><br/><br/>
+                    <a style={{ fontSize: '20px'}} href={process.env.REACT_APP_OEA_BACKEND_HOST+"/register"} >Export Registered Engineers</a><br/><br/>
+                    <a style={{ fontSize: '20px'}} href={process.env.REACT_APP_OEA_BACKEND_HOST+"/mobile"} >Export Updated Mobiles</a><br/><br/>
                 </div>
             </div>
         </div>
