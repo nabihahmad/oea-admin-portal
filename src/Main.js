@@ -19,7 +19,7 @@ function Main() {
             </div>
             <div className="app">
                 <div className="Main">
-                    <a style={{ fontSize: '20px'}} href={process.env.REACT_APP_OEA_BACKEND_HOST+"/vote"} >Export Votes</a><br/><br/>
+                    <a style={{ fontSize: '20px'}} href={process.env.REACT_APP_OEA_BACKEND_HOST+"/votes"} >Export Votes</a><br/><br/>
                     <a style={{ fontSize: '20px'}} href={process.env.REACT_APP_OEA_BACKEND_HOST+"/register"} >Export Registered Engineers</a><br/><br/>
                     <a style={{ fontSize: '20px'}} href={process.env.REACT_APP_OEA_BACKEND_HOST+"/mobile"} >Export Updated Mobiles</a><br/><br/>
                 </div>
