@@ -3,12 +3,12 @@ import './Main.css';
 import Cookies from 'js-cookie';
 
 function Main() {
-    const isLoggedIn = !!Cookies.get('token');
+    const isLoggedIn = !!Cookies.get(process.env.REACT_APP_TOKEN);
     if (!isLoggedIn)
         window.location.href = '/';
 
     const logout = () => {
-        Cookies.remove('token');
+        Cookies.remove(process.env.REACT_APP_TOKEN);
         window.location.href = '/';
     }
   
